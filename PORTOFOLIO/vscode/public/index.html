@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    
+<body class="bg-gray-900 text-purple-500">
+    <!--Header-->
+    <header class="z-10 sticky top-0 bg-gray-900 py-5">
+        
+            <nav class="w-9/12 flex flex-row mx-auto"> 
+                <!--Logo-->
+                <div class="uppercase text-lg basis-1/4">
+                    <a href="#Hero">
+                        <span class="font-extrabold text-white">Fariel</span>
+                        <span class="font-extralight text-blue-500">Dzaky</span>
+                    </a>
+                </div>
+
+                <!--Link-->
+                <div class="basis-3/4 flex items-center justify-evenly">
+                    <a href="#Services"><span class="hover:text-white">Services</span></a>
+
+                    <a href="#Portofolios"><span class="hover:text-white">Portofolios</span></a>
+
+                    <a href="#Experiences"><span class="hover:text-white">Experiences</span></a>
+
+                    <a href="#Contact"><span class="hover:text-white">Contact</span></a>
+                </div>
+            </nav>
+        
+    </header>
+
+    <!--Main Content-->
+    <main id="Hero" class="relative -top-20">
+        <!--Hero Section-->
+        <div class="bg-gray-950">
+            <div class="mx-auto flex h-screen items-center w-9/12">
+                <!--Deskripsi-->
+                <div class="basis-1/2">
+                    <div class="flex items-center">
+                        <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                            <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                        </svg>
+
+                        <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                            My Name Is
+                        </h2>
+                    </div>
+            
+                    <h3 class="font-bold text-4xl text-white">
+                        <span>Fariel</span>
+                        <span class="text-blue-700">Dzaky.</span>
+                    </h3>
+
+                    <p class="font-light text-white">
+                        Creative front-end develover with more than 5+ years of experience in erterprise companies and startups. Proficient in HTML, CSS, Tailwind CSS, Javascript, Python, and Java, Passionate about Web
+                    </p>
+                    <div class="flex flex-row mt-5 space-x-7">
+                        <button class="hover:bg-purple-500 bg-black rounded-2xl">
+                            <a href="https://www.instagram.com/farieldzaky?igsh=dWwzeTV5ZGRsMHUx"><img class="w-7 h-7" src="img/instagram.svg" alt="Instagram"></a>
+                        </button>
+                        
+                        <button class="hover:bg-purple-500 bg-black rounded-2xl">
+                            <a href="https://www.tiktok.com/@farieldzakyyy?_t=ZS-8tRfTDuBbwe&_r=1"><img class="w-7 h-7" src="img/tiktok.svg" alt="Tiktok"></a>
+                        </button>
+
+                        <button class="hover:bg-purple-500 bg-black rounded-2xl">
+                            <a href="https://www.facebook.com/share/15uyjfn17y/"><img class="w-7 h-7" src="img/facebook.svg" alt="Facebook"></a>
+                        </button>
+                    
+                        <button class="hover:bg-purple-500 bg-black rounded-2xl">
+                            <a href="https://www.linkedin.com/in/fariel-dzaky-58a9422ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="w-7 h-7" src="img/linkedin.svg" alt="Linkedin"></a>
+                        </button>
+                    </div>
+                </div>
+                
+                <!--Avatar-->
+                <div class="basis-1/2">
+                    <img class="mx-auto ml-12" src="img/avatar.png" alt="Foto kece">
+                </div>
+            </div>
+        </div>
+
+        <!--Services-->
+        <div id="Services" class="bg-slate-50 pt-20 pb-20">
+            <div class="w-9/12 mx-auto">
+
+                <!--Judul-->
+                <div>
+                    <div class="flex flex-col place-items-center">
+                        <div class="flex items-center">
+                            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                             </svg>
+                             
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-black">
+                            Services
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl">Specialized In</h3>
+                    </div>
+                </div>
+
+                <!--Cards-->
+                <div class="grid grid-cols-3 gap-10 py-10">
+
+                    <!--Cards 1-->
+                    <div class="rounded-xl bg-white shadow-xl">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div class="h-10 w-10 p-2 bg-blue-200 rounded-2xl">
+                                <img class="w-full" src="img/crown.svg" alt="Crown">
+                            </div>
+
+                            <h4 class="text-purple mt-5">
+                                UI/UX Design
+                            </h4>
+
+                            <p class="text-center font-extralight text-sm mt-2 text-black">
+                                Turn what you have in mind of adigital product into reality. For any platform you consider. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Cards 2-->
+                    <div class="rounded-xl bg-white shadow-xl">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div class="h-10 w-10 p-2 bg-blue-200 rounded-2xl">
+                                <img class="w-full" src="img/aplication.png" alt="Crown">
+                            </div>
+
+                            <h4 class="text-purple mt-5">
+                                Applications Development
+                            </h4>
+
+                            <p class="text-center font-extralight text-sm mt-2 text-black">
+                                Standard designing, building, implementing your applications with documentation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Cards 3-->
+                    <div class="rounded-xl bg-white shadow-xl">
+                        <div class="flex flex-col items-center py-10 px-10">
+                            <div class="h-10 w-10 p-2 bg-blue-200 rounded-2xl">
+                                <img class="w-full" src="img/Globe.png" alt="Crown">
+                            </div>
+
+                            <h4 class="text-purple mt-5">
+                                Web Development
+                            </h4>
+
+                            <p class="text-center font-extralight text-sm mt-2 text-black">
+                                Create and maintain your websites and also take care of its performance and traffic capacity. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Portofolio-->
+        <div id="Portofolios" class="bg-gray-950 py-40">
+            <div class="w-9/12 mx-auto">
+                <div>
+                    <div class="flex flex-col">
+                        <div class="flex items-center">
+                            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                            </svg>
+                             
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                            My Works
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl text-purple">Featured Portofolios</h3>
+                    </div>
+                </div>
+
+                <!--Cards-->
+                <div class="grid grid-cols-4 gap-20 mt-20">
+                    <div class="rounded-lg shadow-lg overflow-hidden">
+                        <img class="object-cover h-48 opacity-100" src="img/company profile.webp" alt="Company Profile">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Company Profile</h4>
+                            <h5 class="text-sm font-mono font-light">Tailwind CSS</h5>
+                        </div>
+                    </div>
+                    
+                    <div class="rounded-lg shadow-lg overflow-hidden">
+                        <img class="object-cover h-48 opacity-100" src="img/dashboard react js.jpeg" alt="Dashboard">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Dashboard </h4>
+                            <h5 class="text-sm font-mono font-light">React JS</h5>
+                        </div>
+                    </div>
+        
+                    <div class="rounded-lg shadow-lg overflow-hidden">
+                        <img class="object-cover h-48 opacity-100" src="img/LMS.webp" alt="LMS">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">LMS</h4>
+                            <h5 class="text-sm font-mono font-light">PHP</h5>
+                        </div>
+                    </div>
+        
+                    <div class="rounded-lg shadow-lg overflow-hidden">
+                        <img class="object-cover h-48 opacity-100" src="img/Agency website.jpg" alt="Agency Website">
+                        <div class="bg-white py-2 px-4">
+                            <h4 class="text-sm font-medium text-gray-800">Agency Website</h4>
+                            <h5 class="text-sm font-mono font-light">Wordpress</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--Experiences-->
+        <div id="Experiences" class="bg-gray-950 py-40">
+            <div class="mx-auto w-9/12 flex flex-row items-center">
+                <div class="basis-1/3">
+                    <div class="flex flex-col">
+                        <div class="flex items-center">
+                            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                            </svg>
+                             
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-white">
+                            Career Path
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl text-purple">Experiences</h3>
+
+                        <div class="flex flex-col gap-y-5 mt-10 pr-20">
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-xl" href=""><span>Apple</span> > </a>
+
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-xl" href=""><span>Microsoft</span> > </a>
+
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-xl" href=""><span>Google</span> > </a>
+
+                            <a class="hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-xl" href=""><span>Android</span> > </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="basis-2/3 pl-15">
+                    <h4 class="text-2xl font-bold text-purple">Front-end Develover Apple.Inc</h4>
+                    <h5 class="text-sm font-light text-white">California, United States</h5>
+                    <p class="mt-5 text-light text-gray-200">November 2020 - Present : Fulltime</p>
+                    <div class="mt-2">
+                        <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono">Swift</span>
+                        <span class="border-white border border-solid px-2 py-1 rounded-md text-sm font-mono">Go</span>
+                        <hr class="my-5">
+                        <ul class="list-disc list-inside leading-10 text-white">
+                            <li>
+                                Improving overal website performance for mobile users,
+                            </li>
+
+                            <li>
+                                Collaborate with back-end developer and web designers to improve usability, 
+                            </li>
+
+                            <li>
+                                And voice search feature for mobile app using dictation,
+                            </li>
+
+                            <li>
+                                Developing an admin panel to comply with spatial computing for vision pro
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact-->
+        <div id="Contact" class="bg-white pt-40 pb-40">
+            <div class="mx-auto w-9/12 flex flex-row items-center">
+                <div class="basis-1/2">
+                    <div class="flex flex-col place-items-center">
+                        <div class="flex items-center">
+                            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+                                <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                             </svg>
+                             
+                            <h2 class="uppercase text-xs font-extralight tracking-ngangkang text-black">
+                            Inquiry
+                            </h2>
+                        </div>
+                        <h3 class="text-3xl text-purple">Contact Me</h3>
+                    </div>
+
+                    <form action="#" method="POST" class="max-w-md mt-10">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-semibold">Name</label>
+
+                            <input class="bg-blue-100 rounded-md px-4 py-2 w-full fokus:ring-blue-900" type="text"/>
+                        </div>
+                            
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-semibold">Email</label>
+
+                            <input class="bg-blue-100 rounded-md px-4 py-2 w-full fokus:ring-blue-900" type="email"/>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-semibold">Message</label>
+
+                            <textarea class="bg-blue-100 rounded-md px-4 py-2 w-full fokus:ring-blue-900" name="" id="" cols="30" rows="4"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="hover:bg-blue-700 bg-blue-500 text-white font-semibold py-2 px-4 rounded-md w-full" type="submit">
+                                Send Email
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="basis-1/2 ml-20">
+
+                    <div class="flex flex-row gap-5 p-5 ">
+                        <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                            <img class="w-full" src="img/geo-alt-fill.svg" alt="Lokasi">
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-medium text-purple">
+                                Address
+                            </h4>
+                            <h5 class="font-thin text-black">
+                                Purwodadi, Groboogaan, Jawa Tengah, Indonesia
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row gap-5 p-5">
+                        <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                            <img class="w-full" src="img/telephone-fill.svg" alt="Telepon">
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-medium text-purple">
+                                Phone Call
+                            </h4>
+                            <h5 class="font-thin text-black">
+                                0812-1785-3725
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row gap-5 p-5">
+                        <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                            <img class="w-full" src="img/envelope-fill.svg" alt="Email">
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-medium text-purple">
+                                E-mail
+                            </h4>
+                            <h5 class="font-thin text-black">
+                                Ternakdigital@gmail.com
+                            </h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="bg-black text-center pt-10 pb-10 font-mono -mt-20">
+        2025 Fariel Dzaky. All rights reserved
+    </footer>
+
+    
+</body>
+</html>

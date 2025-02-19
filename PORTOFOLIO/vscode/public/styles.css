@@ -1,0 +1,11 @@
+.tracking-ngangkang{
+    letter-spacing: .5em;
+}
+
+.trangking-ngempit{
+    letter-spacing: -0.5em;
+}
+
+.w-7.h-7 {
+    filter: invert(1);
+  }
