@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Title Logo -->
+    <link rel="icon" href="img/JS.svg">
+    <!-- Title Logo -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.5.1.min.js">
+    <title>Portofolio | Handsome_Hanz</title>
+</head>
+<body id="top">
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#top"><img src="GoogleLogo.svg.webp" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" per="About Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z"/></svg></a></li>
+            <li><a href="#skill" per="Skills"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 19h-4v-4h4v4zm6 0h-4v-8h4v8zm6 0h-4v-13h4v13zm6 0h-4v-19h4v19zm1 2h-24v2h24v-2z"/></svg></a></li>
+            <li><a href="#contact" per="Contact Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg></a></li>
+        </ul>
+        <div class="bar" onclick="change(this)">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="header">
+            <div class="text">
+                <h1>Hello! My Name Is Fariel Dzaky</h1>
+                
+                <p>
+                    Hello! My name is Fariel Dzaky, I major in Informatics, I am not good at math and science. I am very interested in technology and website development.<br><br>I like computer stuff since I was kid, I like playing video game, and make me more interested to explore deeper into it.<br><br>I can speak Indonesian language, little bit English, and now, I'm learning Japanese language. I want go to Japan, so... I must learn their language.
+                </p>
+
+                <ul class="header-links">
+                    <li><a href="#about" per="About Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z"/></svg></a></li>
+                    <li><a href="#skill" per="Skills"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 19h-4v-4h4v4zm6 0h-4v-8h4v8zm6 0h-4v-13h4v13zm6 0h-4v-19h4v19zm1 2h-24v2h24v-2z"/></svg></a></li>
+                    <li><a href="#contact" per="Contact Me"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.48 22.926l-1.193.658c-6.979 3.621-19.082-17.494-12.279-21.484l1.145-.637 3.714 6.467-1.139.632c-2.067 1.245 2.76 9.707 4.879 8.545l1.162-.642 3.711 6.461zm-9.808-22.926l-1.68.975 3.714 6.466 1.681-.975-3.715-6.466zm8.613 14.997l-1.68.975 3.714 6.467 1.681-.975-3.715-6.467z"/></svg></a></li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="Fariel_D.png" alt="Foto">
+            </div>
+        </div>
+        <div class="about">
+            <div class="text" id="about">
+                <h1>About Me</h1>
+
+                <h3>Who Am I?</h3>
+
+                <p>I am Fariel Dzaky from Grobogan, I am 19 years old and I am in informatics class. I am a frontend developer but I can't use PHP yet but I have quite a lot of knowledge about CSS</p>
+
+                <h3>What have I been doing all this time?</h3>
+
+                <p>Simple, Coding, Games, and most important, I'm in the process of learning Japanese language</p>
+
+                <h3>Which social media I am most active in?</h3>
+
+                <p>Github</p>
+
+                <h3>What game do I play the most?</h3>
+
+                <p>One Piece Bounty Rush</p>
+            </div>
+            <div class="img">
+                <img src="Fariel_D.png" alt="Foto">
+            </div>
+        </div>
+        <div class="skill">
+            <div class="text">
+                <h1>My Skills</h1>
+                <h3>Here's some information about my skills</h3>
+            </div>
+            <div class="chart" id="skill">
+                <p>
+                    Note: I didn't attach PHP because my PHP skills are very low.
+                </p>
+                <ul class="skill-list">
+                    <li>HTML <ul class="syne-mono-font">
+                        <li class="green">Understand HTML basics. ✓</li>
+                        <li class="green">Smoothly using div, ul, li. ✓</li>
+                        <li class="orange">Less able to use form tag. ✓</li>
+                        <li class="red">Not accustomed to use content, sidebar, article, etc. tags. ✗</li>
+                    </ul></li>
+                </ul>
+                <br>
+                <ul class="skill-list">
+                    <li>CSS3 <ul class="syne-mono-font">
+                        <li class="green">Understand CSS basics. ✓</li>
+                        <li class="green">Smoothly using basics CSS. ✓</li>
+                        <li class="green">Smoothly using transition, transform, z-index, position, ::before, ::after, etc. ✓</li>
+                        <li class="orange">Less able to use ntn-child(), first-child, etc. ✓</li>
+                        <li class="red">Not accustomed to use @keyframe animation. ✗</li>
+                    </ul></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="text">
+                <h1>Contact Person</h1>
+            </div>
+            <div class="cards">
+                <ul>
+                    <a target="_blank" href="https://www.linkedin.com/in/fariel-dzaky-58a9422ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <li>
+                            <h4>Linkedin</h4>
+                            <h6>Fariel Dzaky</h6>
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/farieldzaky?igsh=dWwzeTV5ZGRsMHUx">
+                        <li>
+                            <h4>Instagram</h4>
+                            <h6>Fariel Dzaky</h6>
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://www.tiktok.com/@farieldzakyyy?_t=ZS-8uhj1asSHfL&_r=1">
+                        <li>
+                            <h4>Tiktok</h4>
+                            <h6>Fariel Dzaky</h6>
+                        </li>
+                    </a>
+                    <a target="_blank" href="https://github.com/FarielDzakyyy">
+                        <li>
+                            <h4>Github</h4>
+                            <h6>Fariel Dzaky</h6>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Fariel Dzaky All Rights Reserved</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
